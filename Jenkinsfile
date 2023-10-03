@@ -1,13 +1,20 @@
 pipeline {
-    agent any
-        stages {
-            stages ("step1") {
-                steps {
-                    echo "test" >> /tmp/test
-                }
-    
-            }
+	agent any 
+	stages {
+	
+		stage("build") {
+			steps {
+			echo "hi " > /tmp/test
+			
+			}
+			
+		
+		}
+	
+	
+	}
 
-    }
+
+
 
 }
