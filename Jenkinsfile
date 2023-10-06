@@ -6,7 +6,7 @@ pipeline {
 			steps {
 			sh '''#!/bin/bash
    			/home/master/test.sh
-			echo $var1'''
+			echo "$var1"'''
 			
 			}
 			
