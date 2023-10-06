@@ -5,7 +5,7 @@ pipeline {
 		stage("build") {
 			steps {
 			sh '''#!/bin/bash
-   			echo 'hi ' > /tmp/test'''
+   			/home/master/test.sh'''
 			
 			}
 			
