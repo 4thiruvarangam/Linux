@@ -15,7 +15,7 @@ pipeline {
 		stage("build1") {
 			steps {
 			sh '''#!/bin/bash
-   			echo 'hello ' > /tmp/test'''
+   			echo 'echo $var1'''
 			
 			}
 			
