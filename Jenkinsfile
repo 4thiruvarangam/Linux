@@ -5,7 +5,8 @@ pipeline {
 		stage("build") {
 			steps {
 			sh '''#!/bin/bash
-   			/home/master/test.sh'''
+   			/home/master/test.sh
+			echo $var1'''
 			
 			}
 			
@@ -15,7 +16,7 @@ pipeline {
 		stage("build1") {
 			steps {
 			sh '''#!/bin/bash
-   			echo 'echo $var1'''
+   			echo 'echo hi'''
 			
 			}
 			
