@@ -4,7 +4,8 @@ pipeline {
 	
 		stage("build") {
 			steps {
-			echo 'hi ' > /tmp/test'''
+			sh '''#!/bin/bash
+   			echo 'hi ' > /tmp/test'''
 			
 			}
 			
