@@ -11,6 +11,16 @@ pipeline {
 			
 		
 		}
+
+		stage("build") {
+			steps {
+			sh '''#!/bin/bash
+   			echo 'hello ' > /tmp/test'''
+			
+			}
+			
+		
+		}
 	
 	
 	}
