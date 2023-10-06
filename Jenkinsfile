@@ -5,7 +5,11 @@ pipeline {
 		stage("build") {
 			steps {
 			sh '''#!/bin/bash
-   			echo hi '''
+   			echo hi
+      			for i in `echo 1 2`
+	 		do
+    			echo $i
+       			done '''
 			
 			}
 			
