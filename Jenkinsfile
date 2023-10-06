@@ -16,7 +16,9 @@ pipeline {
 		stage("build1") {
 			steps {
 			sh '''#!/bin/bash
-   			echo  $var2 '''
+   			for i in `echo 1 2`
+      		        echo $i
+			done '''
 			
 			}
 			
