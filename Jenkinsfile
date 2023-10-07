@@ -5,11 +5,7 @@ pipeline {
 		stage("build") {
 			steps {
 			sh '''#!/bin/bash
-   			echo hi
-      			for i in `echo 1 2`
-	 		do
-    			echo $i
-       			done '''
+   			/home/thiruteek/myscripts/forlooptest.sh'''
 			
 			}
 			
